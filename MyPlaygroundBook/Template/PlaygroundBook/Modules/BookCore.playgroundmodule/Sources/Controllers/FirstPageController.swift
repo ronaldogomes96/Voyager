@@ -7,8 +7,9 @@
 
 import Foundation
 import UIKit
+import PlaygroundSupport
 
-public class FirstPageController: LiveView {
+public class FirstPageController: LiveView, PlaygroundLiveViewMessageHandler {
     
     private let image: UIImageView = {
         let image = UIImageView()
@@ -18,7 +19,7 @@ public class FirstPageController: LiveView {
         return image
     }()
     
-    private var imageName: String? {
+    public var imageName: String? {
         didSet {
             image.image = UIImage(named: imageName!)
         }
@@ -49,5 +50,11 @@ public class FirstPageController: LiveView {
             self.image.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
             self.image.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0)
         ])
+    }
+    
+    public func receive(_ message: PlaygroundValue) {
+        if case .string(let named) = message {
+            imageName = named
+        }
     }
 }

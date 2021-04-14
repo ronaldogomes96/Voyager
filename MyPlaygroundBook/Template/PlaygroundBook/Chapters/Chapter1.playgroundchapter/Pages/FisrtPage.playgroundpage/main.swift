@@ -19,7 +19,23 @@
  
  */
 
-let code = "SomeCode"
+//#-hidden-code
+import PlaygroundSupport
+import UIKit
+import SpriteKit
+
+public func newImage() {
+    guard let remoteView = PlaygroundPage.current.liveView as? PlaygroundRemoteLiveViewProxy else {
+        fatalError("Always-on live view not configured in this page's LiveView.swift.")
+    }
+    remoteView.send(.string("image2"))
+}
+
+//#-end-hidden-code
+
+//#-editable-code
+newImage()
+//#-end-editable-code
 
 /*:
  
