@@ -23,6 +23,8 @@
 		5EBEC2F0205B399300975D3F /* LiveViewHost.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBEC2EF205B396500975D3F /* LiveViewHost.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2F97E2054B6E400191409 /* ManifestPlist.strings */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
+		774A6E8A2627171A00118893 /* FirstPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774A6E892627171A00118893 /* FirstPageController.swift */; };
+		774A6E9426271C1A00118893 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774A6E9326271C1A00118893 /* image1.jpg */; };
 		77C5ABEE2625E83400072734 /* IntroductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5ABED2625E83400072734 /* IntroductionController.swift */; };
 		77C5AC002625EC1400072734 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5ABFF2625EC1400072734 /* Controller.swift */; };
 /* End PBXBuildFile section */
@@ -133,7 +135,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E086DC02051C5A7004D8D25 /* Voyager.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Voyager.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
@@ -161,6 +163,8 @@
 		5EF2F97D2054B6E400191409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ManifestPlist.strings; sourceTree = "<group>"; };
 		5EF2F9AB2054BBF300191409 /* libBookCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBookCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		774A6E892627171A00118893 /* FirstPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageController.swift; sourceTree = "<group>"; };
+		774A6E9326271C1A00118893 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		77C5ABED2625E83400072734 /* IntroductionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionController.swift; sourceTree = "<group>"; };
 		77C5ABFF2625EC1400072734 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,7 +205,7 @@
 		5E086DA4204F706E004D8D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */,
+				5E086DC02051C5A7004D8D25 /* Voyager.playgroundbook */,
 				5EF2F9AB2054BBF300191409 /* libBookCore.a */,
 				5E6F7E612368FB6A008CC191 /* libBookAPI.a */,
 				5E6F7E742368FF15008CC191 /* libUserModule.a */,
@@ -380,6 +384,7 @@
 			children = (
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
+				774A6E9326271C1A00118893 /* image1.jpg */,
 				5E551EC42371FC3F00784365 /* Assets.xcassets */,
 			);
 			path = PrivateResources;
@@ -397,8 +402,9 @@
 		77C5ABEC2625E80E00072734 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				77C5ABED2625E83400072734 /* IntroductionController.swift */,
 				77C5ABFF2625EC1400072734 /* Controller.swift */,
+				77C5ABED2625E83400072734 /* IntroductionController.swift */,
+				774A6E892627171A00118893 /* FirstPageController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -424,7 +430,7 @@
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
-			productReference = 5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */;
+			productReference = 5E086DC02051C5A7004D8D25 /* Voyager.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
 		};
 		5E6F7E602368FB6A008CC191 /* BookAPI */ = {
@@ -555,6 +561,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
+				774A6E9426271C1A00118893 /* image1.jpg in Resources */,
 				5E551EC52371FC3F00784365 /* Assets.xcassets in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 			);
@@ -636,6 +643,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77C5AC002625EC1400072734 /* Controller.swift in Sources */,
+				774A6E8A2627171A00118893 /* FirstPageController.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				77C5ABEE2625E83400072734 /* IntroductionController.swift in Sources */,
 			);
