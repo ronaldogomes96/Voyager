@@ -25,6 +25,8 @@ public func instantiateLiveView(_ controller: Controller) -> PlaygroundLiveViewa
         liveViewController = IntroductionController()
     case .firstPage:
         liveViewController = FirstPageController(imageName: "image1")
+    case .secondPage:
+        liveViewController = SecondPageController(imageName: "image3")
     }
 
     return liveViewController
