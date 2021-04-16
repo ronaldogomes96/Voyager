@@ -14,7 +14,6 @@ public class FirstPageController: LiveView, PlaygroundLiveViewMessageHandler {
     private let image: UIImageView = {
         let image = UIImageView()
         image.contentMode = .scaleAspectFit
-        image.clipsToBounds = false
         image.backgroundColor = .clear
         return image
     }()

@@ -13,4 +13,5 @@ public enum Controller {
     case secondPageWithImage
     case secondPageWithAudio
     case arkitPage
+    case futurePage
 }
