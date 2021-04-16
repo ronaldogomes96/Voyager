@@ -1,5 +1,5 @@
 /*:
- ## What is the Voyager mission?
+ # What is the Voyager mission? ⚡️🤔
  
  Imagine that you are in the year 1977. Imagine all the technology of that time, all the limitations, uncertainties, computational power, in short, everything that did not exist at that time and exists today.
 
@@ -18,7 +18,6 @@
  Run the code below to see an image that represents the route of the ships since their launch.
  
  */
-
 //#-hidden-code
 import PlaygroundSupport
 import UIKit
@@ -29,11 +28,10 @@ public func newImage() {
     }
     remoteView.send(.string("image2"))
 }
-
 //#-end-hidden-code
 
 //#-editable-code
-newImage()
+newImage() // Run this code to see a image
 //#-end-editable-code
 
 /*:
@@ -48,6 +46,7 @@ newImage()
  - Determine the structure of the magnetic field and characterize the composition and distribution of the trapped energy particles and the plasma in them
 
  Today much of what we know about these planets and their surroundings comes from voyagers. However, they exceeded initial expectations. The adventurers' current mission, the Voyager Interstellar Mission (VIM), will explore the outer edge of the Sun's domain. And beyond ...
-*/
+ 
+ [Next: Golden Record](@next)
 
-//:[Next: Golden Record](@next)
+*/

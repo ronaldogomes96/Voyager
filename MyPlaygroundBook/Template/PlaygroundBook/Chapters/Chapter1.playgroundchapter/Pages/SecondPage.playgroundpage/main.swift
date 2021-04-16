@@ -1,5 +1,5 @@
 /*:
- ## Golden Record
+ # Golden Record 🎼
  
  The missions also have a human purpose, to find life outside the Earth and to communicate with it.
 
@@ -13,10 +13,11 @@
 
  Greetings are something special, as they show how the people of planet earth can welcome you in many ways. Now you can hear them!
  
- #### Note: You must write the languages you want to hear in audios, putting a period in front of them. For example, if you want to hear the message in English, Portuguese and Spanish, you must do:
- 
- audios = [.English, .Portuguese, .Spanish]
- 
+ - Note:
+  "You must write the languages you want to hear in audios, putting a period in front of them. For example, if you want to hear the message in English, Portuguese and Spanish, you must do:
+ \
+ audios = [ .English, .Portuguese, .Spanish ]
+ \
  And run the code.
  
  Remembering that the messages are not the same, each one has its peculiarity!
@@ -25,15 +26,10 @@
 import PlaygroundSupport
 import UIKit
 import BookCore
-
 var audios: [Audios] = []
 //#-end-hidden-code
 
-//#-editable-code
-
-audios = []
-
-//#-end-editable-code
+audios = /*#-copy-source(id1)*//*#-editable-code*/[]/*#-end-editable-code*//*#-end-copy-source*/ // Write here the languages you want to hear, starting with a period and separated by commas
 
 //#-hidden-code
 PlaygroundPage.current.liveView = instantiateLiveView(.secondPageWithAudio , audios)
@@ -41,7 +37,7 @@ PlaygroundPage.current.liveView = instantiateLiveView(.secondPageWithAudio , aud
 /*:
  
  It is possible that at some point, far beyond, someone or something will find this disk, in the infinity of space. It is incredible to think about it, to know that we have a time capsule traveling into the unknown and that it can last for about 4.5 billion years! We can only imagine how far they can go.
+ 
+ [Next: The Ship](@next)
 
  */
-
-//:[Next: The Ship](@next)

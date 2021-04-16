@@ -22,7 +22,7 @@ public func instantiateLiveView(_ controller: Controller, _ audios: [Audios] = [
     
     switch controller {
     case .introduction:
-        liveViewController = IntroductionController()
+        liveViewController = FirstPageController(imageName: "image0")
     case .firstPage:
         liveViewController = FirstPageController(imageName: "image1")
     case .secondPageWithImage:
@@ -32,6 +32,8 @@ public func instantiateLiveView(_ controller: Controller, _ audios: [Audios] = [
     case .arkitPage:
         storyboard = UIStoryboard(name: "ARKit", bundle: nil)
         liveViewController = storyboard.instantiateInitialViewController() as! ARKitController
+    case .futurePage:
+        liveViewController = FirstPageController(imageName: "image4")
     }
 
     return liveViewController
