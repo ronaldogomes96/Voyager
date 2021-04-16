@@ -22,7 +22,6 @@
 //#-hidden-code
 import PlaygroundSupport
 import UIKit
-import SpriteKit
 
 public func newImage() {
     guard let remoteView = PlaygroundPage.current.liveView as? PlaygroundRemoteLiveViewProxy else {
@@ -50,3 +49,5 @@ newImage()
 
  Today much of what we know about these planets and their surroundings comes from voyagers. However, they exceeded initial expectations. The adventurers' current mission, the Voyager Interstellar Mission (VIM), will explore the outer edge of the Sun's domain. And beyond ...
 */
+
+//:[Next: Golden Record](@next)

@@ -11,7 +11,7 @@ import PlaygroundSupport
 /// Instantiates a new instance of a live view.
 ///
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.
-public func instantiateLiveView(_ controller: Controller) -> PlaygroundLiveViewable {
+public func instantiateLiveView(_ controller: Controller, _ audios: [Audios] = []) -> PlaygroundLiveViewable {
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
 
     guard let viewController = storyboard.instantiateInitialViewController() else {
@@ -25,6 +25,10 @@ public func instantiateLiveView(_ controller: Controller) -> PlaygroundLiveViewa
         liveViewController = IntroductionController()
     case .firstPage:
         liveViewController = FirstPageController(imageName: "image1")
+    case .secondPageWithImage:
+        liveViewController = FirstPageController(imageName: "image3")
+    case .secondPageWithAudio:
+        liveViewController = SecondPageControllerWithAudio(audios: audios)
     }
 
     return liveViewController

@@ -10,4 +10,6 @@ import Foundation
 public enum Controller {
     case introduction
     case firstPage
+    case secondPageWithImage
+    case secondPageWithAudio
 }
