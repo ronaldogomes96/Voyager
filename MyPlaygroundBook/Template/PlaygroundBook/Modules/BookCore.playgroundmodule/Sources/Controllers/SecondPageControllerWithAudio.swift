@@ -13,7 +13,7 @@ public class SecondPageControllerWithAudio: LiveView, PlaygroundLiveViewMessageH
     var languageName: UILabel = {
         let label = UILabel()
         label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: 15, weight: .bold)
+        label.font = UIFont.systemFont(ofSize: 90, weight: .bold)
         label.baselineAdjustment = .alignCenters
         label.textAlignment = .center
         return label
@@ -43,7 +43,7 @@ public class SecondPageControllerWithAudio: LiveView, PlaygroundLiveViewMessageH
     }
     
     public override func viewDidLoad() {
-        self.view.backgroundColor = .yellow
+        self.view.backgroundColor = .black
         
         addConstrainst()
         

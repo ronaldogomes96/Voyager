@@ -12,6 +12,14 @@
  The 115 images on the disc were encoded in analog format. Sound selections (including greetings in 55 languages, 35 sounds, natural and artificial, and parts of 27 musical pieces) are designed for playback at 1000 rpm.
 
  Greetings are something special, as they show how the people of planet earth can welcome you in many ways. Now you can hear them!
+ 
+ #### Note: You must write the languages you want to hear in audios, putting a period in front of them. For example, if you want to hear the message in English, Portuguese and Spanish, you must do:
+ 
+ audios = [.English, .Portuguese, .Spanish]
+ 
+ And run the code.
+ 
+ Remembering that the messages are not the same, each one has its peculiarity!
  */
 //#-hidden-code
 import PlaygroundSupport
