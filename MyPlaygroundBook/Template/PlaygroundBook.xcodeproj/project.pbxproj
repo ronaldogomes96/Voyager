@@ -31,6 +31,9 @@
 		774A6EAA2627373700118893 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 774A6EA92627373700118893 /* image3.jpg */; };
 		77C5ABEE2625E83400072734 /* IntroductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5ABED2625E83400072734 /* IntroductionController.swift */; };
 		77C5AC002625EC1400072734 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5ABFF2625EC1400072734 /* Controller.swift */; };
+		77D1DC842629C800004B57CD /* ARKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D1DC832629C800004B57CD /* ARKit.storyboard */; };
+		77D1DC8E2629C859004B57CD /* ARKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D1DC8D2629C859004B57CD /* ARKitController.swift */; };
+		77D1DC942629CAF6004B57CD /* asserts.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D1DC932629CAF6004B57CD /* asserts.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -175,6 +178,9 @@
 		774A6EA92627373700118893 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		77C5ABED2625E83400072734 /* IntroductionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionController.swift; sourceTree = "<group>"; };
 		77C5ABFF2625EC1400072734 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		77D1DC832629C800004B57CD /* ARKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ARKit.storyboard; sourceTree = "<group>"; };
+		77D1DC8D2629C859004B57CD /* ARKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitController.swift; sourceTree = "<group>"; };
+		77D1DC932629CAF6004B57CD /* asserts.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = asserts.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,6 +403,8 @@
 				774A6E99262727B600118893 /* image2.jpg */,
 				774A6E9326271C1A00118893 /* image1.jpg */,
 				5E551EC42371FC3F00784365 /* Assets.xcassets */,
+				77D1DC832629C800004B57CD /* ARKit.storyboard */,
+				77D1DC932629CAF6004B57CD /* asserts.scnassets */,
 			);
 			path = PrivateResources;
 			sourceTree = "<group>";
@@ -417,6 +425,7 @@
 				77C5ABED2625E83400072734 /* IntroductionController.swift */,
 				774A6E892627171A00118893 /* FirstPageController.swift */,
 				774A6EA32627366C00118893 /* SecondPageControllerWithAudio.swift */,
+				77D1DC8D2629C859004B57CD /* ARKitController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -572,8 +581,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D1DC942629CAF6004B57CD /* asserts.scnassets in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				774A6E9A262727B600118893 /* image2.jpg in Resources */,
+				77D1DC842629C800004B57CD /* ARKit.storyboard in Resources */,
 				774A6EAA2627373700118893 /* image3.jpg in Resources */,
 				7706C84B26288EF00035E68E /* GoldenRecord in Resources */,
 				774A6E9426271C1A00118893 /* image1.jpg in Resources */,
@@ -662,6 +673,7 @@
 				774A6E8A2627171A00118893 /* FirstPageController.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				77C5ABEE2625E83400072734 /* IntroductionController.swift in Sources */,
+				77D1DC8E2629C859004B57CD /* ARKitController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
