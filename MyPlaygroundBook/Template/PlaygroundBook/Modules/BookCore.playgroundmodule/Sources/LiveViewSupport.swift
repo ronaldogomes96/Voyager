@@ -12,11 +12,11 @@ import PlaygroundSupport
 ///
 /// By default, this loads an instance of `LiveViewController` from `LiveView.storyboard`.
 public func instantiateLiveView(_ controller: Controller, _ audios: [Audios] = []) -> PlaygroundLiveViewable {
-    let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
-
-    guard let viewController = storyboard.instantiateInitialViewController() else {
-        fatalError("LiveView.storyboard does not have an initial scene; please set one or update this function")
-    }
+    var storyboard = UIStoryboard(name: "LiveView", bundle: nil)
+    
+//    guard let viewController = storyboard.instantiateInitialViewController() else {
+//        fatalError("LiveView.storyboard does not have an initial scene; please set one or update this function")
+//    }
     
     var liveViewController: LiveView
     
@@ -29,6 +29,9 @@ public func instantiateLiveView(_ controller: Controller, _ audios: [Audios] = [
         liveViewController = FirstPageController(imageName: "image3")
     case .secondPageWithAudio:
         liveViewController = SecondPageControllerWithAudio(audios: audios)
+    case .arkitPage:
+        storyboard = UIStoryboard(name: "ARKit", bundle: nil)
+        liveViewController = storyboard.instantiateInitialViewController() as! ARKitController
     }
 
     return liveViewController

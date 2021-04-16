@@ -41,5 +41,7 @@ PlaygroundPage.current.liveView = instantiateLiveView(.secondPageWithAudio , aud
 /*:
  
  It is possible that at some point, far beyond, someone or something will find this disk, in the infinity of space. It is incredible to think about it, to know that we have a time capsule traveling into the unknown and that it can last for about 4.5 billion years! We can only imagine how far they can go.
- 
+
  */
+
+//:[Next: The Ship](@next)
