@@ -22,7 +22,6 @@
 //#-hidden-code
 import PlaygroundSupport
 import UIKit
-import SpriteKit
 
 public func newImage() {
     guard let remoteView = PlaygroundPage.current.liveView as? PlaygroundRemoteLiveViewProxy else {
