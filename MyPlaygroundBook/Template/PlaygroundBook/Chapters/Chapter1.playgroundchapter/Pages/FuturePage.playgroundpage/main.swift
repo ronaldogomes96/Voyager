@@ -39,6 +39,6 @@ seeImage() //Run this code to see the most distant image of the Earth
 
  You found? This is planet Earth!
 
- Carl Sagan called it Palido Ponto Azul. Everything you know, everyone you've ever heard of, every human being who ever existed, who exists, every king, emperor and peasant, every joy and every suffering, every achievement, every economy or ideology, every bloodshed, every child born, each challenge, everything happened there, on that little grain of bread in this immensity of the universe. It's our home.
+ Carl Sagan called it Pale Blue Dot. Everything you know, everyone you've ever heard of, every human being who ever existed, who exists, every king, emperor and peasant, every joy and every suffering, every achievement, every economy or ideology, every bloodshed, every child born, each challenge, everything happened there, on that little grain of bread in this immensity of the universe. It's our home.
 
  */
