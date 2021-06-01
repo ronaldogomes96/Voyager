@@ -1,6 +1,6 @@
 # Voyager
 
-This repository contains my code made for the WWDC 2021 scholarship challenge.
+This repository contains my code made for the WWDC 2021 scholarship challenge [Accepted].
 
 It consists of a playground book made for iPad. He talks about the Voyager mission, his creation, initial objectives, where he is at that moment. It also shows the Golden Record and its audios in 55 different languages. There is an interaction with augmented reality that shows the ship.
 
