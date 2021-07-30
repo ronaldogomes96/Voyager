@@ -1,4 +1,4 @@
-# Voyager
+# Voyager - WWDC 2021 Scholarship Challenge Winner
 
 This repository contains my code made for the WWDC 2021 scholarship challenge [Accepted].
 
